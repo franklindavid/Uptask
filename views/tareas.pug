@@ -4,7 +4,7 @@ block contenido
         h1 #{nombrePagina} - #{proyecto.nombre}
         form.agregar-tarea(action=`/proyectos/${proyecto.url}` method='POST')
             .campo 
-                label(for="tarea") Tarea: 
+                label(for="tarea") Tareas: 
                 input.nombre-tarea(type='text' name='tarea' placeholder='Nombre Tarea')
             .campo.enviar 
                 input.boton.nueva-tarea(type='submit' value='Agregar')
