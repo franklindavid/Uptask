@@ -1,0 +1,44 @@
+{
+  "dependencies": {
+    "axios": "^0.26.1",
+    "bcrypt": "^5.0.1",
+    "concurrently": "^7.0.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.14.0",
+    "html-to-text": "^8.1.0",
+    "juice": "^8.0.0",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.2",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "pug": "^3.0.2",
+    "sequelize": "^6.17.0",
+    "shortid": "^2.2.16",
+    "slug": "^5.3.0",
+    "sweetalert2": "^11.4.4"
+  },
+  "name": "uptask",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "nodemon": "^2.0.15",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "desarrollo" :"concurrently \"npm run dev \" \"npm run watch \"",
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js",
+    "watch": "webpack --mode development"
+  },
+  "author": "Fanklin J david Rodriguez",
+  "license": "ISC",
+  "description": ""
+}
