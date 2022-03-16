@@ -39,6 +39,7 @@ exports.crearCuenta = async (req,res)=>{
         res.redirect('/iniciar-sesion');
 
     }catch(error){
+        console.log(error);
         req.flash('error',error.errors.map(error=>error.message))
         res.render('crearCUenta',{
             mensajes: req.flash(),
