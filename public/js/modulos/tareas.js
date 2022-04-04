@@ -50,17 +50,7 @@ if (tareas){
                     });
                 }
               })
-
-
-
-
-
-
-
-
-
-
-
+              
             // const idTarea= e.target.parentElement.parentElement.dataset.tarea;
             // const url = `${location.origin}/tareas/${idTarea}`;
             // axios.patch(url,{idTarea}).then(function(respuesta){
